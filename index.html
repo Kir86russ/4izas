@@ -20,6 +20,15 @@
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
+
+  <style>
+    body {
+      background-color: #FFF;
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -29,54 +38,12 @@
 
 <!-- 2 blocks -->
 <div class="block-left"> left block
-  <div class="circle"> </div>
+  <div class="draggable" id="thing"></div>
+  <div class="draggable" id="thing2"></div>
+  <div class="draggable" id="thing3"></div>
 </div>
-<script>
-  var theThing = document.querySelector("#thing");
-  var container = document.querySelector("#contentContainer");
 
-  container.addEventListener("click", getClickPosition, false);
-
-  function getClickPosition(e){
-    var parentPosition = getPosition(container);
-    var xPosition = e.clientX - parentPosition.x - (theThing.offsetWidth / 2);
-    var yPosition = e.clientY - parentPosition.y - (theThing.offsetHeight / 2);
-
-    var translate3dValue = "translate3d(" + xPosition + "px," + yPosition  + "px, 0)";
-    theThing.style.transform = translate3dValue;
-
-  }
-
-  function getPosition(el) {
-    var xPosition = 0;
-    var yPosition = 0;
-
-    while (el) {
-      if (el.tagName == "BODY") {
-        // deal with browser quirks with body/window/document and page scroll
-        var xScrollPos = el.scrollLeft || document.documentElement.scrollLeft;
-        var yScrollPos = el.scrollTop || document.documentElement.scrollTop;
-
-        xPosition += (el.offsetLeft - xScrollPos + el.clientLeft);
-        yPosition += (el.offsetTop - yScrollPos + el.clientTop);
-      } else {
-        xPosition += (el.offsetLeft - el.scrollLeft + el.clientLeft);
-        yPosition += (el.offsetTop - el.scrollTop + el.clientTop);
-      }
-
-      el = el.offsetParent;
-    }
-    return {
-      x: xPosition,
-      y: yPosition
-    };
-  }
-</script>
-
-<div class="block-right"> right block</div>
-
-
-
+<div class="block-right" id="block-right"> right block</div>
 
 
 

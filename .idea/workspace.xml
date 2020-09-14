@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2947505-1cbf-4e36-b1cb-c233b328619f" name="Default Changelist" comment="init">
+    <list default="true" id="c2947505-1cbf-4e36-b1cb-c233b328619f" name="Default Changelist" comment="не пашет переход">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599822729215</updated>
-      <workItem from="1599822735641" duration="11002000" />
+      <workItem from="1599822735641" duration="11337000" />
+      <workItem from="1600064750937" duration="15243000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1599834989770</created>
@@ -47,7 +50,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599834989770</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="не пашет переход">
+      <created>1599837523644</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599837523644</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -55,7 +65,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="не пашет переход" />
+    <option name="LAST_COMMIT_MESSAGE" value="не пашет переход" />
   </component>
   <component name="WindowStateProjectService">
     <state x="714" y="344" key="#Notifications" timestamp="1599834736601">
@@ -78,13 +89,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="762" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599834878117" />
+    <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1600077763215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600077763215" />
+    <state width="1899" height="348" key="GridCell.Tab.0.center" timestamp="1600077763215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600077763215" />
+    <state width="1899" height="348" key="GridCell.Tab.0.left" timestamp="1600077763215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600077763215" />
+    <state width="1899" height="348" key="GridCell.Tab.0.right" timestamp="1600077763215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600077763215" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1599834842550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599834842550" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1599834998959">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1599837526268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599834998959" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599837526268" />
   </component>
 </project>
