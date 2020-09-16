@@ -81,14 +81,30 @@
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
-<!--<script src="js/alignment.js"></script>-->
-<!--<script src="js/copywriter.js"></script>-->
+<script src="js/alignment.js"></script>
+<script type="text/javascript">
+  jQuery(function () {
+    jQuery('body *').disableSelection();
+  });
+</script>
+<script>jQuery(document).ready(function () {
+  jQuery('img').mousedown(function () {
+    return false;
+  });
+});</script>
 
-<!--<script>-->
-<!--  $( ".image" ).draggable({-->
-<!--    helper: "clone"-->
-<!--  });-->
-<!--</script>-->
+<script>
+  $(document).ready(function () {
+    $("#block-right").droppable({
+      drop: function (event, ui) {
+        $(this).append($(ui.helper).clone());
+      }
+    });
+    $(".image").draggable({
+      helper: 'clone'
+    });
+  });
+</script>
 
 
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->

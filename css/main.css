@@ -291,6 +291,7 @@ textarea {
 .image{
   width: 125px;
   height: 125px;
+  cursor: pointer;
 }
 
 
@@ -309,7 +310,7 @@ textarea {
   background: #FFF4ED;
   padding: 50px 20px;
   text-align: center;
-  /*    */
+  cursor: default;
 }
 
 .one h1 {
