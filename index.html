@@ -21,6 +21,8 @@
 
   <meta name="theme-color" content="#fafafa">
 
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
   <style>
     body {
       background-color: #FFF;
@@ -29,27 +31,65 @@
     }
   </style>
 
+  <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
 </head>
 
 <body>
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+
 
 <!-- TITLE -->
 <div class="one"><h1>Онлайн макет</h1></div>
 
 <!-- 2 blocks -->
-<div class="block-left"> left block
-  <div class="draggable" id="thing"></div>
-  <div class="draggable" id="thing2"></div>
-  <div class="draggable" id="thing3"></div>
+<div class="block-left" id="block-left">
+
+  <div class="list">
+    <div class="cell"><img src="img/bird.png" class="image"></div>
+    <div class="cell"><img src="img/thing5.png" class="image"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"><img src="img/square_PNG96.png" class="image"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+  </div>
+
+  <div class="list">
+    <div class="cell">Content</div>
+    <div class="cell">Content</div>
+    <div class="cell">Content</div>
+    <div class="cell">Content</div>
+    <div class="cell">Content</div>
+    <div class="cell">Content</div>
+    <div class="cell">Content</div>
+    <div class="cell">Content</div>
+    <div class="cell">Content</div>
+    <div class="cell">Content</div>
+    <div class="cell">Content</div>
+  </div>
 </div>
-
 <div class="block-right" id="block-right"> right block</div>
-
 
 
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+<!--<script src="js/alignment.js"></script>-->
+<!--<script src="js/copywriter.js"></script>-->
+
+<!--<script>-->
+<!--  $( ".image" ).draggable({-->
+<!--    helper: "clone"-->
+<!--  });-->
+<!--</script>-->
+
 
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>
