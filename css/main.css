@@ -279,6 +279,7 @@ textarea {
   margin: 0;
   overflow: hidden;
 }
+
 .cell {
   width: 163px;
   height: 110px;
@@ -287,13 +288,6 @@ textarea {
   margin-bottom: 10px;
   text-align: -webkit-center;
 }
-
-.image{
-  width: 125px;
-  height: 125px;
-  cursor: pointer;
-}
-
 
 
 .block-right {
@@ -354,7 +348,19 @@ textarea {
 
 
 .block-left .image:hover {
-  transform: translate(0px,4px);
-  -webkit-transform: translate(0px,4px);
+  transform: translate(0px, 4px);
+  -webkit-transform: translate(0px, 4px);
 }
 
+
+.image {
+  width: 125px;
+  height: 125px;
+}
+
+
+.item {
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+}

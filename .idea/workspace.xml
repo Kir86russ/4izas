@@ -14,9 +14,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c2947505-1cbf-4e36-b1cb-c233b328619f" name="Default Changelist" comment="перенос - done, красивые фигурки&#10;СДЕЛАТЬ IDшники после переноса!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+=======
+    <list default="true" id="c2947505-1cbf-4e36-b1cb-c233b328619f" name="Default Changelist" comment="перенос сделан на ура, но id шники не меняю при переносе им">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/thing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/thing2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/thing3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/thing4.jpg" beforeDir="false" />
+>>>>>>> parent of 087c87e... перенос - done, красивые фигурки
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +57,6 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\DELL\WebstormProjects\stagecraft\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\WebstormProjects\stagecraft\img" />
     </key>
@@ -93,6 +99,7 @@
       <option name="project" value="LOCAL" />
       <updated>1600250257902</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00004" summary="перенос сделан на ура, но id шники не меняю при переносе им">
       <created>1600254402982</created>
       <option name="number" value="00004" />
@@ -108,6 +115,9 @@
       <updated>1600264775185</updated>
     </task>
     <option name="localTasksCounter" value="6" />
+=======
+    <option name="localTasksCounter" value="4" />
+>>>>>>> parent of 087c87e... перенос - done, красивые фигурки
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,10 +152,6 @@
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600155581432" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599823778598" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600263807234">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600263807234" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1600171552089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -162,6 +168,7 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="762" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599834878117" />
+<<<<<<< HEAD
     <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1600267657904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -230,14 +237,91 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600267657543" />
+=======
+    <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1600180622160">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600180622160" />
+    <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600077763215" />
+    <state width="1899" height="348" key="GridCell.Tab.0.center" timestamp="1600180622159">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600180622159" />
+    <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600077763215" />
+    <state width="1899" height="348" key="GridCell.Tab.0.left" timestamp="1600180622159">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600180622159" />
+    <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600077763215" />
+    <state width="1899" height="348" key="GridCell.Tab.0.right" timestamp="1600180622159">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600180622159" />
+    <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600077763215" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1600180621660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600180621660" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1600180621660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600180621660" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1600180621660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600180621660" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1600180621660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600180621660" />
+    <state width="1899" height="348" key="GridCell.Tab.2.bottom" timestamp="1600180621661">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600180621661" />
+    <state width="1899" height="348" key="GridCell.Tab.2.center" timestamp="1600180621661">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600180621661" />
+    <state width="1899" height="348" key="GridCell.Tab.2.left" timestamp="1600180621660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600180621660" />
+    <state width="1899" height="348" key="GridCell.Tab.2.right" timestamp="1600180621661">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600180621661" />
+    <state width="1899" height="348" key="GridCell.Tab.3.bottom" timestamp="1600180621662">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600180621662" />
+    <state width="1899" height="348" key="GridCell.Tab.3.center" timestamp="1600180621661">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600180621661" />
+    <state width="1899" height="348" key="GridCell.Tab.3.left" timestamp="1600180621661">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600180621661" />
+    <state width="1899" height="348" key="GridCell.Tab.3.right" timestamp="1600180621662">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600180621662" />
+>>>>>>> parent of 087c87e... перенос - done, красивые фигурки
     <state x="461" y="165" key="SettingsEditor" timestamp="1599834842550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599834842550" />
+<<<<<<< HEAD
     <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1600264782746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600264782746" />
+=======
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1600250260648">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600250260648" />
+>>>>>>> parent of 087c87e... перенос - done, красивые фигурки
     <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599837526268" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1600171888330">
       <screen x="0" y="0" width="1920" height="1040" />
