@@ -356,6 +356,7 @@ textarea {
 .image {
   width: 125px;
   height: 125px;
+  resize: both;
 }
 
 

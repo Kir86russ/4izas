@@ -14,6 +14,9 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
@@ -22,12 +25,53 @@
   <meta name="theme-color" content="#fafafa">
 
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
-<!---->
+  <!---->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+
+
   <style>
-    body  {
+    body {
       background-color: #FFF;
       padding: 0;
       margin: 0;
+    }
+  </style>
+
+  <style>
+    .slidecontainer {
+      width: 100%;
+    }
+
+    .slider {
+      -webkit-appearance: none;
+      width: 100%;
+      height: 25px;
+      background: #d3d3d3;
+      outline: none;
+      opacity: 0.7;
+      -webkit-transition: .2s;
+      transition: opacity .2s;
+    }
+
+    .slider:hover {
+      opacity: 1;
+    }
+
+    .slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 25px;
+      height: 25px;
+      background: #4CAF50;
+      cursor: pointer;
+    }
+
+    .slider::-moz-range-thumb {
+      width: 25px;
+      height: 25px;
+      background: #4CAF50;
+      cursor: pointer;
     }
   </style>
 
@@ -36,11 +80,12 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+
+
 </head>
 
 <body>
 
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
 
 <!-- TITLE -->
 <div class="one"><h1>Онлайн макет</h1></div>
@@ -77,12 +122,43 @@
     <div class="cell">Content</div>
   </div>
 </div>
-<div class="block-right" id="block-right"> right block</div>
+
+<div class="block-right" id="block-right">
+  <div class="slidecontainer">
+    <p>Ширина:</p>
+    <input type="range" min="50" max="200" value="125" class="slider" id="myRange1">
+    <p>Value: <span id="demo1"></span></p>
+    <p>Высота:</p>
+    <input type="range" min="50" max="200" value="125" class="slider" id="myRange2">
+    <p>Value: <span id="demo2"></span></p>
+  </div>
+</div>
+
+<script>
+  var slider = document.getElementById("myRange1");
+  var output1 = document.getElementById("demo1");
+  output1.innerHTML = slider.value;
+
+  slider.oninput = function () {
+    output1.innerHTML = this.value;
+  }
+</script>
+
+<script>
+  var slider = document.getElementById("myRange2");
+  var output2 = document.getElementById("demo2");
+  output1.innerHTML = slider.value;
+
+  slider.oninput = function () {
+    output2.innerHTML = this.value;
+  }
+</script>
 
 
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+<script src="js/dragAndClone.js"></script>
 <script src="js/alignment.js"></script>
 <script type="text/javascript">
   jQuery(function () {
@@ -94,55 +170,6 @@
     return false;
   });
 });</script>
-
-<!--РАБОТАЕТ КАК НАДО НО С ПАРАФИНОЗОМ СПРАВА-->
-<!--<script>-->
-
-<!--  $(document).ready(function () {-->
-<!--    $("#block-right").droppable({-->
-<!--      accept: '.cell',-->
-<!--      drop: function (event, ui) {-->
-
-<!--        $(this).append(ui.helper.clone());-->
-<!--        $("#block-right .cell").addClass("item");-->
-<!--         $(".item").removeClass("ui-draggable cell");-->
-<!--        $(".item").draggable({-->
-<!--          containment: 'parent',-->
-<!--          grid: [100,100]-->
-<!--        })-->
-
-
-
-<!--      }-->
-<!--    });-->
-<!--    $(".cell").draggable({-->
-<!--      helper: 'clone'-->
-<!--    });-->
-
-<!--  });-->
-<!--</script>-->
-
-
-
-
-<!--<script>-->
-
-<!--  $(document).ready(function () {-->
-<!--    $("#block-right").droppable({-->
-<!--      drop: function (event, ui) {-->
-
-<!--        $(this).append($(ui.helper).clone(true));-->
-
-
-<!--      }-->
-<!--    });-->
-<!--    $(".image").draggable({-->
-<!--      helper: 'clone'-->
-<!--    });-->
-
-<!--  });-->
-<!--</script>-->
-
 
 
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
